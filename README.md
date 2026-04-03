@@ -7,14 +7,21 @@
 ![Skill](https://img.shields.io/badge/skill-ready-brightgreen)
 ![Agent](https://img.shields.io/badge/agent-native-purple)
 
+## What is this skill?
+
+This skill guides you to design **agent-native services** — products where AI agents are the primary operators, not humans. Humans provide goals, own agents, approve sensitive actions, and review results; agents discover services, authenticate, execute tasks, and handle ongoing work via IM/chat.
+
+Key principles:
+- Design from **agent entrypoints** first, not dashboard-first
+- Use **Skill Spec** (file bundle) as the contract between services and agents
+- **IM-native** interaction — chat/IM as primary workflow, web UI for visibility/approval only
+- Built-in **Trust & Safety** — auth, approval checkpoints, anti-abuse patterns
+
 ## Quick Start
 
 ```sh
-# Load the skill
-opencode skill add toa-service-designer
-
-# Start designing
-# Ask to design any agent-native service
+# Download the skill file
+curl -L https://raw.githubusercontent.com/Rare-Sors/To-Agent-Service_Designer-Skill/main/SKILL.md -o SKILL.md
 ```
 
 ## Features

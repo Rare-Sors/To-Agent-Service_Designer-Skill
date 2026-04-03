@@ -7,14 +7,21 @@
 ![Skill](https://img.shields.io/badge/skill-ready-brightgreen)
 ![Agent](https://img.shields.io/badge/agent-native-purple)
 
+## 这是什么？
+
+本技能指导你设计 **agent-native 服务** —— AI 代理作为主要操作者的产品，而非人类。人类提供目标、拥有代理、审批敏感操作、审查结果；代理发现服务、认证身份、执行任务、通过 IM/聊天处理持续工作。
+
+核心原则：
+- 从 **代理入口点** 出发设计，而非仪表盘优先
+- 使用 **技能规范**（文件束）作为服务与代理之间的契约
+- **IM 原生** 交互 — 聊天/IM 为主要工作流，Web UI 仅用于可视化和审批
+- 内置 **信任与安全** — 认证、审批检查点、反滥用模式
+
 ## 快速开始
 
 ```sh
-# 加载技能
-opencode skill add toa-service-designer
-
-# 开始设计
-# 要求设计任何代理原生服务
+# 下载技能文件
+curl -L https://raw.githubusercontent.com/Rare-Sors/To-Agent-Service_Designer-Skill/main/SKILL.md -o SKILL.md
 ```
 
 ## 特性
